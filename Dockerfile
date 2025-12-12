@@ -42,4 +42,4 @@ ENV STREAMLIT_SERVER_ENABLECORS=false \
     STREAMLIT_SERVER_ENABLEXSRSFPROTECTION=true \
     STREAMLIT_SERVER_TRUSTED_ORIGINS="*"
 
-CMD bash -lc "streamlit run app.py --server.port=${STREAMLIT_SERVER_PORT} --server.address=${STREAMLIT_SERVER_ADDRESS}"
+CMD bash -lc "streamlit run app.py --server.port=${PORT} --server.address=${STREAMLIT_SERVER_ADDRESS}"
